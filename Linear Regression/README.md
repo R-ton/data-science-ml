@@ -13,7 +13,7 @@ Project demonstration of applying linear regression in Python
     sh start_env.sh
 ```
 It will help us manage the dependencies through the project without affecting the system already installed librairies
-- Activate the virtual environment by running these script
+- Activate the virtual environment (vdev) by running these script
     - For Windows system
         ```bash
             source ./vdev/Scripts/activate
