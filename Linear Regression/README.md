@@ -27,9 +27,6 @@ It will help us manage the dependencies through the project without affecting th
 ```bash
     pip install -r dependencies.txt
 ```
-## Authors
-
-- [@rton](https://www.github.com/rton)
 
 
 ## Useful resources
