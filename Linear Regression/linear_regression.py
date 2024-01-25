@@ -22,6 +22,7 @@ class LinearRegression:
     """
     def add_bias(self, X):
         X_biased = X
+        #If we have only one feature convert it to vector
         if(X_biased.ndim == 1):
             X_biased = reshape(X, (len(X), 1))
       
