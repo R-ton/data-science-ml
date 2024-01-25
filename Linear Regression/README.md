@@ -7,15 +7,9 @@ Project demonstration of applying linear regression in Python
 
 - Make sure you have Python 3.3 version at least to run this project
 
-- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the project dependencies.
-
-```bash
-    cd project-directory
-    pip install -r dependencies.txt
-```
-
 - Create a virtual environment for the development (make sure you have third librairies that handle .sh file like [Cygwin](https://cygwin.com/) or [Git](https://git-scm.com/downloads) if you are on Windows based system)
 ```bash
+    cd project-directory
     sh start_env.sh
 ```
 It will help us manage the dependencies through the project without affecting the system already installed librairies
@@ -28,6 +22,11 @@ It will help us manage the dependencies through the project without affecting th
         ```bash
             source ./vdev/bin/activate
         ```
+- Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the project dependencies.
+
+```bash
+    pip install -r dependencies.txt
+```
 ## Authors
 
 - [@rton](https://www.github.com/rton)
